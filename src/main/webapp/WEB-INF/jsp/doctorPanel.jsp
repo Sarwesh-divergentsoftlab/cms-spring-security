@@ -15,7 +15,7 @@
 		<button type="submit" formaction="loginadmin">See booked appointments</button>
 		<button type="submit" formaction="loginadmin">Check patient history</button>
 		<button type="submit" formaction="loginadmin">Create Invoice</button>
-		<button type="submit" formaction="loginadmin">Logout</button>
+		<button type="submit" formaction="logout">Logout</button>
 	</form>
 </body>
 </html>

@@ -13,6 +13,17 @@ public class HomeController {
 		return "adminPanel";
 	}
 	
+	@RequestMapping("/login")
+	public String loginPage()
+	{
+		return "adminlogin";
+	}
+	
+	@RequestMapping("/logout-success")
+	public String logoutPage()
+	{
+		return "logout";
+	}
 
 }
 

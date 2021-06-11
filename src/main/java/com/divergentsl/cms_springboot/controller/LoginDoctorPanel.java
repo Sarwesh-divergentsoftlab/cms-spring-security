@@ -41,13 +41,13 @@ public class LoginDoctorPanel {
 		    else
 		    {
 		    	 System.out.println("login doctor fail");
-		    	 return "doctor";
+		    	 return "doctorlogin";
 		    }
 		    
 	}
 	@GetMapping
 	public String showDoctorLogin()
 	{
-		return "doctor";
+		return "doctorlogin";
 	}		
 }

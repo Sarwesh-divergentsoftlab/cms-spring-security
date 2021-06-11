@@ -9,12 +9,12 @@
 <body>
 	admin login success
 	<form>
-		<button type="submit" formaction="CRUDdoctor">Doctor Manager</button>
-		<button type="submit" formaction="CRUDpatient">Patient Manager</button>
-		<button type="submit" formaction="CRUDdrug">Drug Manager</button>
-		<button type="submit" formaction="CRUDlabtest">Labtest Manager</button>
-		<button type="submit" formaction="appointmentOP">Make Appointment</button>
-		<button type="submit" formaction="loginadmin">Logout</button>
+		<button type="submit" formaction="/CRUDdoctor">Doctor Manager</button>
+		<button type="submit" formaction="/CRUDpatient">Patient Manager</button>
+		<button type="submit" formaction="/CRUDdrug">Drug Manager</button>
+		<button type="submit" formaction="/CRUDlabtest">Labtest Manager</button>
+		<button type="submit" formaction="/appointmentOP">Make Appointment</button>
+		<button type="submit" formaction="/logout">Logout</button>
 	</form>
 </body>
 </html>
